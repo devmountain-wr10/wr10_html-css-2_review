@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(138, 202, 138);
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-pockets, #right-pockets {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left-pockets {
+    background-color: orange;
+}
+
+#right-pockets {
+    background-color: red;
+}
+
+.pockets {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 50%;
+}
